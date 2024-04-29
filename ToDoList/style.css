@@ -1,0 +1,28 @@
+/* Existing styles from previous solution */
+
+table.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 2px solid #ddd;  /* Added table border */
+  }
+  
+  table.table th,
+  table.table td {
+    border: 1px solid #ddd;  /* Adjusted border for cells */
+    padding: 8px;
+    text-align: left;
+  }
+  
+  table.table th {
+    background-color: #f2f2f2;
+  }
+  
+  table.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table.table tr:hover {
+    background-color: #ddd;
+  }
+  
